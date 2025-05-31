@@ -35,15 +35,8 @@ public class constructorOverloading {
 
 class callingClassNew2{
     public static void main(String[] args) {
+        constructorOverloading obj1=new constructorOverloading();
     constructorOverloading obj=new constructorOverloading("Find Your Career");
-
-    //o/p-->1)default constructor
-        //2)find your career ,,3)parametrisesed constructor with string 1  4) find your career 5) newstring null
-
-
-
-        //constructorOverloading obj1=new constructorOverloading();
-//        constructorOverloading obj2=new constructorOverloading(20);
 
     }
 }
