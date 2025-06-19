@@ -4,16 +4,12 @@ package functionLibrary;
 // Print total count of objects created.
 public class constructorUnderstanding {
     String name;
-
     public void constructorUnderstandingmethod(){
         System.out.println(name);
     }
-
     constructorUnderstanding(){
         this("Find Your Career");
         System.out.println("default constructor");
-
-
     }
 
     constructorUnderstanding(String newString){
